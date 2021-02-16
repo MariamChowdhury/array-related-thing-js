@@ -17,3 +17,7 @@ items.forEach(n=>console.log(n.name));
 //filter
 const remaining=items.filter(p=>p.id !=2);
 console.log(remaining);
+
+//find
+const hasPC=items.find(p=>p.name==='pc');
+console.log(hasPC)
