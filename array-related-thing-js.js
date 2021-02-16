@@ -15,4 +15,5 @@ console.log(prices);
 items.forEach(n=>console.log(n.name));
 
 //filter
-
+const remaining=items.filter(p=>p.id !=2);
+console.log(remaining);
